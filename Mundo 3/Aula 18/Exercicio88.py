@@ -9,7 +9,7 @@ print('-' * 30)
 jogos = []
 jogo = []
 quantidade = int(input('Quantos jogos você quer que eu sorteie? '))
-print(f'-=-=-= SORTEANDO {quantidade} JOGOS =-=-=-\n')
+print(f'\n-=-=-= SORTEANDO {quantidade} JOGOS =-=-=-\n')
 for c in range(0, quantidade):
     for n in range(0, 6):
         numero = randint(1, 60)
