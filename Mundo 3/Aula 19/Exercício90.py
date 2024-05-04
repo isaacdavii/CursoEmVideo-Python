@@ -6,7 +6,7 @@ if aluno['media'] >= 6.0:
 else:
     aluno['situacao'] = 'Reprovado'
 
-for k, v in ficha.items():
+for k, v in aluno.items():
     print('--------------------------------')
     print(f'{k} é igual a {v}.')
 print()
