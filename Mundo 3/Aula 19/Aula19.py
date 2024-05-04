@@ -6,9 +6,9 @@ pessoas['peso'] = 98.5
 
 print(f'O {pessoas["nome"]} tem {pessoas["idade"]} anos.')
 
-print(pessoas.keys())
-print(pessoas.values())
-print(pessoas.items())
+print(pessoas.keys())       >> Mostra a categoria (nome, ano, ...)
+print(pessoas.values())     >> Mostra os nomes dos objetos
+print(pessoas.items())      >> Ele mostra os dois
 
 for k in pessoas.values():
     print(k)
