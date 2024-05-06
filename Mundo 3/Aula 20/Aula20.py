@@ -31,11 +31,11 @@ valores = [6, 3, 9, 1, 0, 2]
 dobra(valores)
 print(valores)
 
-def soma(*valores):
+def Soma(*valores):
     sum = 0
     for num in valores:
         sum += num
     print(f'Somando os valores {valores}, temos {sum}')
 
-soma(5, 2)
-soma(2, 9, 4)
+Soma(5, 2)
+Soma(2, 9, 4)
