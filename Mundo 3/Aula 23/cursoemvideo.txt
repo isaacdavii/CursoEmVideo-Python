@@ -1,0 +1,2 @@
+Maria; 20
+Isaac; 25
